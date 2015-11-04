@@ -10,6 +10,6 @@ console.log("server is stsrted"); */
 
 
 
-var book=require('books.js');
-console.read("name " + book.name);
+var book = require('./books.js');
+console.log('Name: ' + book.name);
 book.read();
